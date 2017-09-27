@@ -4,7 +4,7 @@
 
 Thành viên:
 * [ ] **1412553** Dương Minh Toàn (tên tài khoản github: 1412553)
-* [ ] **MSSV2** Tên sinh viên 2 (tên tài khoản github)
+* [ ] **1412367** Hà Đình Nhân (tên tài khoản github: 1412367)
 
 URL: **URL hosting của bài tập**
 
