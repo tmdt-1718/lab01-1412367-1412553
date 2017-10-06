@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Web</title>
+    <%= csrf_meta_tags %>
+
+    <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+  </head>
+
+  <body>
+  	<div class="row">
+  		<div class = "col-12 ml-md-5">
+  			<img src="https://i.pinimg.com/236x/65/83/d1/6583d1e27e4cfd22a96c5f48acedadf5--kingsman-secret-service.jpg" width="140" height="170" controls/>
+  			<img src="http://anhbiafb.com/uploads/ctv_2/FILE-20170303-23429UR9K9U5L4XG.jpg" width="80%" height="170" controls/>
+  		</div>
+  	</div>
+  	<div class = "col-md-11 ml-md-5">
+  		<nav class="navbar navbar-expand-lg navbar-light bg-light">
+	  		<a class="navbar-brand" href="/">TN</a>
+		  	<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+		    <span class="navbar-toggler-icon"></span>
+		  	</button>
+
+			 <div class="collapse navbar-collapse" id="navbarSupportedContent">
+			    <ul class="navbar-nav mr-auto">
+			      <li class="nav-item active">
+			        <a class="nav-link" href="/home">Home <span class="sr-only">(current)</span></a>
+			      </li>
+			      <li class="nav-item">
+			        <a class="nav-link" href="/albums">Albums</a>
+			      </li>
+			      <li class="nav-item">
+			        <a class="nav-link disabled" href="/about">About</a>
+			      </li>
+			      <li class="nav-item">
+			        <a class="nav-link disabled" href="/blog">Blog</a>
+			      </li>
+			    </ul>
+
+			    
+
+			 </div>
+		</nav>	
+  	</div>
+
+  	<div class = "col-md-11 ml-md-5">
+  		<div class="footer">
+	        <div class="footer-info text-center">
+	        Dương Minh Toàn - Hà Đình Nhân
+	      	<br>
+	        1412553-1412367 <br>
+	        Copyright© 2017<br>
+	    </div>
+  	</div>
+	
+    <%= yield %>
+  </body>
+</html>
