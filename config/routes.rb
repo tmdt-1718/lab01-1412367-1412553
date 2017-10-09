@@ -5,6 +5,8 @@ Rails.application.routes.draw do
 
   
 
+  
+
 	get 'home/index'
   		resources :home
 	root 'home#index'
@@ -36,6 +38,9 @@ Rails.application.routes.draw do
   get 'img4/index'
     resources :img4
   root 'img4#index'
+
+  
+
   
 
 
